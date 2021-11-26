@@ -62,7 +62,7 @@ $channel_id = "-100xxxxxxxxxx";
     }
 
   if($message == "/sc" || $message == "/si" || $message == "/st" || $message == "/cs" || $message == "/ua" || $message == "/at"  ){
-   $botdown = "@WorldCheckerBot is under Maintenance";
+   $botdown = "@Unnamed_Verified is under Maintenance";
         send_message($chat_id,$message_id, $botdown);
     }
 
