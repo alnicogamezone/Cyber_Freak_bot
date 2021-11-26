@@ -142,7 +142,7 @@ if(strpos($message, "/bin") === 0){
     $bin = substr($message, 5);
     $curl = curl_init();
     curl_setopt_array($curl, [
-    CURLOPT_URL => "https://binssuapi.vercel.app/api/".$bin,
+    CURLOPT_URL => "https://lookup.binlist.net/bin".$bin,
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
